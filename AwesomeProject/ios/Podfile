@@ -12,6 +12,8 @@ target 'AwesomeProject' do
     :hermes_enabled => false
   )
 
+  pod 'RNPhotoEditor', :path => '../node_modules/react-native-photo-editor'
+
   target 'AwesomeProjectTests' do
     inherit! :complete
     # Pods for testing
